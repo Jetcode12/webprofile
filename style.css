@@ -1,0 +1,208 @@
+/* CSS Reset */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Hero */
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+span{
+    color: #4eabe4;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: #3b83b0;
+    transition: .4s;
+}
+
+.btn{
+    background-color: #3b83b0;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 35px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.content{
+    position: absolute;
+    top: 45%;
+    left: 8%;
+    transform: translateY(-50%);
+}
+
+h2{
+    color: white;
+    margin: 8px 0px px;
+    font-size: 55px;
+}
+
+h4, h3{
+    color: white;
+    margin: 10px 0px 10px;
+    font-size: 30px;
+}
+
+.newsletter form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+
+.newsletter form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid #3b83b0;
+    outline: none;
+    border-radius: 10px;
+}
+.newsletter form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: #fe9a00;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #85858;
+    top: 6px;
+    right: 6px;
+}
+
+/* --------------About Me Section Start------------- */
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: #191919;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #49057;
+    background-color: #fe9a00;
+    border-color: #000000 #000000 #000000;
+}
+
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    background-color: white;
+    border: 1px solid transparent;
+}
+
+.nav-tabs {
+    border-bottom:#000
+}
+
+/* --------------About Me Section End------------- */
+
+/* --------------Projects Start------------- */
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+}
+
+.projects{
+    width: 100%;
+}
+
+.btn:hover {
+    transform: none;
+}
+.btn {
+    background-color: #fe9a00;
+    color: black;
+    text-decoration: none;
+    border: none;
+    font-weight: 600;
+    padding: 5px 15px;
+    border-radius: 10px;
+    transition: transform 0.4s ease 0s;
+}
+
+.card{
+    width: 500px;
+    padding: 10px 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+/* --------------Projects Start------------- */
+
+/* Contact Me */
+.contact-me{
+    width: 100%;
+    height: 100vh;
+    background: #191919;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-me p{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 25px;
+}

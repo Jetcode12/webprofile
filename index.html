@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Web Profile</title>
+
+        <!-- Linking of bootstrap -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+
+        <!-- Link of Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+        <!-- Link to CSS -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Hero section -->
+        <div class="hero">
+            <nav>
+                <h2 class="logo">Portfo<span>lio</span></h2>
+                <ul>
+                    <li><a href="#homemain">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#">Project</a></li>
+                    <li><a href="#">Contact Me</a></li>
+                </ul>
+            </nav>
+
+            <div class="content" id="#homemain">
+                <h3>Hello! My name is</h3>
+                <h2><span>Ian</span> Soreño</h2>
+                <h4>Web developer base in the Philippines.</h4>
+                <div class="newsletter">
+                    <form>
+                        <input type="email" name="email" id="mail" placeholder="Enter Your Email">
+                        <input type="submit" name="submit" id="submit" value="Lets Start">
+                    </form>
+                </div>
+                <div>
+                    <a href="#" class="fa fa-facebook"></a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- About Me start section -->
+        <section class="about">
+            <div class="main row" id="#aboutme">
+                <img src="https://images.unsplash.com/photo-1618354691490-0de58a2c4c93?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80" class="col-md-6">
+
+                <div class="about-text text-white col-md-6 pt-5" id="about-me">
+                    <h2>About Me</h2>
+                    <h5>Developer & Programmer</h5>
+                    <p>I am a full-stack web developer. I can provide clean, pixel perfect design and easy to understand code. I also create website more interactive with web animations. I also create website using wordpress and make your webiste responsive to all devices.</p>
+
+                    <ul class="nav nav-tabs pt-5" id="myTab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link active text-dark" id="home-tab" data-toggle="tab" data-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Skills</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                          <button class="nav-link text-dark" id="profile-tab" data-toggle="tab" data-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Experience</button>
+                        </li>
+                      </ul>
+                      <div class="tab-content" id="myTabContent">
+                        <!-- Skills -->
+                        <div class="tab-pane fade show active pl-4 pt-4" id="home" role="tabpanel" aria-labelledby="home-tab">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Javascript</li>
+                                <li>Bootstrap</li>
+                                <li>Wordpress</li>
+                            </ul>
+                        </div>
+                        <!-- Experience -->
+                        <div class="tab-pane fade pl-4 pt-4" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                            <ul>
+                                <li>Wordpress Web Developer</li>
+                            </ul>
+                        </div>
+                        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+                      </div>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- About Me end section -->
+
+        <section class="projects">
+            <div class="projects container">
+                    <h2 class="text-center text-dark">Projects</h2>
+
+                    
+            </div>
+        </section>
+
+        <!-- Contact Me Section -->       
+        <div class="contact-me container">
+                    <h2 class="text-center">Let Me Get You A Beautiful Website.</h2>
+                    <div class="row">
+                        <div class="col-4">
+                            <p>I create modern, search engine-optimised, and mobile friendly websites that are completely customised to your specs. Plus, once you have signed up and running you will be able to benefit from the ongoing support that can make changes and updates as your business grows. Ready to get started?</p>
+                            <a class="button-two" href="tel:+639533175402">Call Me</a>
+                        </div>
+                    </div>
+        </div>
+
+        <!-- Script -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    </body>
+</html>
